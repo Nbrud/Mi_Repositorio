@@ -1587,7 +1587,13 @@
     transition: none;
   }
 }
-
+@media only screen and (min-width:768) {
+  .CarrouselSize {
+ 
+  width: 50%;
+  
+}
+}
 @media (prefers-reduced-motion: reduce) {
     .carousel-control-prev,
   .carousel-control-next {

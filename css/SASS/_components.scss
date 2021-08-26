@@ -4,10 +4,11 @@
   }
 .CarrouselSize{
 
-    margin-left: 25rem;
-    margin-right: 25rem ;
-    align-content: center ;
-    object-fit: cover;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 100%;
   
   } 
 progress {
@@ -26,9 +27,7 @@ textarea {
   
 fieldset {
     min-width: 0;
-    padding: 0;
-    margin: 0;
-    border: 0;
+    border: 1rem solid white;
   }
   
 legend {
@@ -331,6 +330,7 @@ summary {
   padding-bottom: calc(0.25rem + 1px);
   font-size: 0.875rem;
 }
+
 .form-control[type=file] {
   overflow: hidden;
 }
