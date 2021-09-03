@@ -8089,7 +8089,7 @@ h3, .h3 {
   margin-right: auto;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 100%;
+  width: 65%;
 }
 
 progress {
